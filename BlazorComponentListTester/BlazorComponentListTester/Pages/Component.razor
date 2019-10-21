@@ -1,0 +1,10 @@
+﻿@using BlazorComponentListTester.Data
+
+<div style="border:1px solid">
+    ID = @Value.ID<br />
+    Title = @Value.Title<br />
+</div>
+
+@code {
+    [Parameter] public ComponentModel Value { get; set; }
+}
